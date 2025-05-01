@@ -1,146 +1,108 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt">
 <head>
+    <title>Descubra o Pantanal</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Tabela de Classificação e Próximos Jogos</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="./style.css">
-
 </head>
 <body>
-    <div class="container">
-        <h1 class="titulo">GRUPO F</h1>
-        
-        <div class="row row-equal-height">
-            <!-- Coluna da Tabela de Classificação -->
-            <div class="col-md-8 mb-4 mb-md-0">
-                <div class="grid-classificacao header bg-primary">
-                    <div>CLASSIFICAÇÃO</div>
-                    <div>P</div>
-                    <div>J</div>
-                    <div>V</div>
-                    <div>E</div>
-                    <div>D</div>
-                    <div>GP</div>
-                    <div>GC</div>
-                    <div>SG</div>
-                    <div>%</div>
-                    <div>ÚLT.JOGOS</div>
-                </div>
-                
-                <!-- França -->
-                <div class="grid-classificacao ">
-                    <div class="grid-item">1 França</div>
-                    <div class="grid-item">7</div>
-                    <div class="grid-item">3</div>
-                    <div class="grid-item">2</div>
-                    <div class="grid-item">1</div>
-                    <div class="grid-item">0</div>
-                    <div class="grid-item">8</div>
-                    <div class="grid-item">4</div>
-                    <div class="grid-item">+4</div>
-                    <div class="grid-item">77</div>
-                    <div class="grid-item ultima-coluna">
-                        <div class="bola-verde"></div>
-                        <div class="bola-verde"></div>
-                        <div class="bola-verde"></div>
-                    </div>
-                </div>
-                
-                <!-- Jamaica -->
-                <div class="grid-classificacao bg-secundary">
-                    <div class="grid-item">2 Jamaica</div>
-                    <div class="grid-item">6</div>
-                    <div class="grid-item">3</div>
-                    <div class="grid-item">1</div>
-                    <div class="grid-item">2</div>
-                    <div class="grid-item">0</div>
-                    <div class="grid-item">1</div>
-                    <div class="grid-item">0</div>
-                    <div class="grid-item">+1</div>
-                    <div class="grid-item">86</div>
-                    <div class="grid-item ultima-coluna">
-                        <div class="bola-verde"></div>
-                        <div class="bola-cinza"></div>
-                        <div class="bola-cinza"></div>
-                    </div>
-                </div>
-                
-                <!-- Brasil -->
-                <div class="grid-classificacao">
-                    <div class="grid-item">3 Brasil</div>
-                    <div class="grid-item">4</div>
-                    <div class="grid-item">3</div>
-                    <div class="grid-item">1</div>
-                    <div class="grid-item">1</div>
-                    <div class="grid-item">1</div>
-                    <div class="grid-item">6</div>
-                    <div class="grid-item">2</div>
-                    <div class="grid-item">+3</div>
-                    <div class="grid-item">44</div>
-                    <div class="grid-item ultima-coluna">
-                        <div class="bola-vermelha"></div>
-                        <div class="bola-verde"></div>
-                        <div class="bola-cinza"></div>
-                    </div>
-                </div>
-                
-                <!-- Panamá -->
-                <div class="grid-classificacao bg-secundary">
-                    <div class="grid-item">4 Panamá</div>
-                    <div class="grid-item">0</div>
-                    <div class="grid-item">3</div>
-                    <div class="grid-item">0</div>
-                    <div class="grid-item">0</div>
-                    <div class="grid-item">3</div>
-                    <div class="grid-item">3</div>
-                    <div class="grid-item">11</div>
-                    <div class="grid-item">-5</div>
-                    <div class="grid-item">0</div>
-                    <div class="grid-item ultima-coluna">
-                        <div class="bola-vermelha"></div>
-                        <div class="bola-vermelha"></div>
-                        <div class="bola-vermelha"></div>
-                    </div>
-                </div>
-            </div>
-            
-            <!-- Coluna dos Jogos Anteriores -->
-            <div class="col-md-4">
-                <div class="jogos-anteriores">
-                    <h3 class="text-center mb-4">JOGOS ANTERIORES</h3>
-                    
-                    <!-- Jogo 1 -->
-                    <div class="jogo-card">
-                        <div class="data-jogo">QUA 02/06/2023 07:00</div>
-                        <div class="time-jogo">
-                            <span class="time-nome">JAM</span>
-                            <span class="placar">0 × 0</span>
-                            <span class="time-nome">BRA</span>
-                        </div>
-                        <div class="local-jogo">ME BOUINHE RECTANGULAR</div>
-                        <a href="#" class="link-jogo">VEJA COMO FOI</a>
-                    </div>
-                    
-                    <!-- Jogo 2 -->
-                    <div class="jogo-card">
-                        <div class="data-jogo">QUA 02/06/2023 07:00</div>
-                        <div class="time-jogo">
-                            <span class="time-nome">PAN</span>
-                            <span class="placar">3 × 6</span>
-                            <span class="time-nome">FRA</span>
-                        </div>
-                        <div class="local-jogo">SUNEY FOOTBALL STADIUM</div>
-                        <a href="#" class="link-jogo">VEJA COMO FOI</a>
-                    </div>
-                </div>
-            </div>
+    <div class="container mt-4 ">
+
+        <!-- Jumbotron -->
+        <div class="jumbotron text-center">
+          <h1 class="display-4">Descubra o Pantanal</h1>
+          <p class="lead">Explore as belezas naturais, culturais e gastronômicas da região pantaneira Mato-grossense.</p>
+          <a class="btn btn-primary btn-lg" href="https://www.tripadvisor.com/Tourism-g2620824-Pantanal-Vacations.html" role="button">Saiba mais</a>
         </div>
+    
+        <!-- Três Cards em linha -->
+        <div class="row mb-5">
+          <!-- Primeiro Card -->
+          <div class="col-md-4">
+            <div class="card">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRewNzbP4Sv_ImvAM32gYuRz-JQkIN21MLnAQ&s" class="card-img-top" alt="Onça Pintada" style="height: 200px; object-fit: cover;">
+              <div class="card-body">
+                <h5 class="card-title">Onça Pintada</h5>
+                <p class="card-text">Conheça o habitat do maior felino da América Latina.</p>
+                <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRewNzbP4Sv_ImvAM32gYuRz-JQkIN21MLnAQ&s" class="btn btn-primary">Ver mais</a>
+              </div>
+            </div>
+          </div>
+           <!-- Segundo Card -->
+          <div class="col-md-4">
+            <div class="card">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPWSnYhQf8jdfjDITy82TmQkAbiNmzKf45rQ&s" class="card-img-top" alt="Jacarés na lagoa" style="height: 200px; object-fit: cover;">
+              <div class="card-body">
+                <h5 class="card-title">Jacarés</h5>
+                <p class="card-text">Vivencie de perto o habitat natural dos jacarés em seu ambiente selvagem.</p>
+                <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPWSnYhQf8jdfjDITy82TmQkAbiNmzKf45rQ&s" class="btn btn-primary">Ver mais</a>
+              </div>
+            </div>
+          </div>
+          <!-- Terceiro Card -->
+          <div class="col-md-4">
+            <div class="card">
+              <img src="https://www.pantanaljunglelodge.com.br/media/cache/32/0a/320ac6d446a794b1eaaad35ed6d46f36.jpg" class="card-img-top" alt="Safári" style="height: 200px; object-fit: cover;">
+              <div class="card-body">
+                <h5 class="card-title">Safári</h5>
+                <p class="card-text">Passeios guiados para apreciação da fauna e flora do Pantanal.</p>
+                <a href="https://www.pantanaljunglelodge.com.br/media/cache/32/0a/320ac6d446a794b1eaaad35ed6d46f36.jpg" class="btn btn-primary">Ver mais</a>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        <!-- Imagem grande centralizada -->
+        <div class="text-center mb-5">
+          <img src="https://img.freepik.com/fotos-gratis/lindo-por-do-sol-no-pantanal-norte_475641-1031.jpg" class="img-fluid mx-auto d-block" alt="Pôr do sol no Pantanal">
+        </div>
+        
+        <!-- Dois Cards em linha -->
+        <div class="row">
+          <!-- Card 1 -->
+          <div class="col-md-6 mb-3">
+            <div class="card h-100">
+              <div class="row no-gutters h-100">
+                <div class="col-md-4 h-100">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMHvf4pTtcEEt6B7frArJVjD0sUL1c3GFbhQ&s" class="img-fluid h-100" style="object-fit: cover;" alt="Barco no rio Pantanal">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body d-flex flex-column justify-content-center h-100">
+                    <h5 class="card-title">Pantanal Mato-grossense</h5>
+                    <p class="card-text">Aproveite a natureza exuberante e contemple milhares de espécies nativas em seu habitat.</p>
+                    <a href="#" class="btn btn-primary mt-auto">Descubra</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+          <!-- Card 2 -->
+          <div class="col-md-6 mb-3">
+            <div class="card h-100">
+              <div class="row no-gutters h-100">
+                <div class="col-md-4 order-md-2 h-100">
+                  <img src="https://viagemeturismo.abril.com.br/wp-content/uploads/2016/12/pantanal01.jpg?quality=70&strip=info&w=928&w=636" class="img-fluid h-100" style="object-fit: cover;" alt="Vista do Pantanal">
+                </div>
+                <div class="col-md-8 order-md-1">
+                  <div class="card-body d-flex flex-column justify-content-center h-100">
+                    <h5 class="card-title">Pantanal</h5>
+                    <p class="card-text">Explore a maior planície alagável do mundo, lar de uma biodiversidade única e fascinante.</p>
+                    <a href="#" class="btn btn-primary mt-auto">Explorar</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        
+    
     </div>
 </body>
 </html>
